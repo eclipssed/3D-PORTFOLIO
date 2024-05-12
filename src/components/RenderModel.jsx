@@ -13,7 +13,7 @@ const RenderModel = ({ children, className }) => {
       // dpr is the device pixel ratio. Here we are setting it to 1 and 2 for retina displays to prevent blurriness in the model rendering on high resolution screens.
     >
       <Suspense fallback={null}>{children}</Suspense>
-      <Environment preset="dawn" />
+      <Environment preset="sunset" />
     </Canvas>
   );
 };

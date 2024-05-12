@@ -107,9 +107,9 @@ export const BtnList = [
     newTab: true,
   },
   {
-    label: "X",
+    label: "Instagram",
     link: "https://www.x.com/code_bucks",
-    icon: "twitter",
+    icon: "instagram",
     newTab: true,
   },
   {
